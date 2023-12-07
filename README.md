@@ -3,7 +3,7 @@
 This script uses the vnu.jar local validator for HTML5, which adheres to W3C standards. Note that this approach requires Java and the downloading of the vnu.jar file.
 
 
-## Step 1
+## Step 1: Get Java (if you don't already have it)
 
 You need Java. 
 
