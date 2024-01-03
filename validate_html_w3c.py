@@ -19,6 +19,7 @@ def scan_directory(directory, vnu_jar_path, report_file):
 if __name__ == "__main__":
     directory = input("Enter the directory path to validate HTML files: ")
     vnu_jar_path = input("Enter the full path to vnu.jar: ")
+    # This is an absolute path to where you want to save the output (a written text file).
     report_file = '/Users/watson/Desktop/html_validation_report_w3c.txt'
     scan_directory(directory, vnu_jar_path, report_file)
     print(f"Report generated at: {report_file}")
